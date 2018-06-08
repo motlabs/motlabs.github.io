@@ -1,43 +1,99 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# # # # # # # # # # #
+#   MoTLabs Blog    #
+# # # # # # # # # # #
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Basic
+name:               "MoTLabs Blog"
 
-# Build settings
-markdown: kramdown
-theme: minima
+authors:
+  jwkang:
+    nickname: Jaewook Kang
+    fullname: 강재욱
+    description: >
+     MoTLab에서 모바일 환경을 위한 **신호처리**와 **머신러닝**을 연구합니다.<br>
+     최근에는 [TensorFlowLite](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/lite) + Convolutional Neural Net에 빠져 있습니다.<br>
+     집에서는 볶음밥 레시피를 연구합니다 :-)
+    gravatar: d79c5efc1cfbc982f00b38d3290ef97c #you can obtain your gravatar hash code from http://www.miraclesalad.com/webtools/md5.php. This site translate your email to a hashcodes.
+    email: jwkang10@gmail.com
+    github: jwkanggist
+    facebook: https://www.facebook.com/jwkkang
+
+#    penname:
+#    nickname: yourname
+#    fullname: yournick name
+#    description: Introduce yourself
+#    gravatar: d79c5efc1cfbc982f00b38d3290ef97c #you can obtain your gravatar hash code from http://www.miraclesalad.com/webtools/md5.php. This site translate your email to a hashcodes.
+#    email: youremail@xxx.com
+#    github: your githubid
+#    facebook: yourfacebook
+
+
+copyright:
+  year:             2018
+  name:             MoTLabs
+
+# Google-analytics
+google-analytics:
+  id:               ""
+
+# Disqus
+disqus:
+  id:               "motlabs"
+
+# URL
+url:                "https://motlabs.github.io/" # the base hostname & protocol for your site
+# url:                "http://localhost:4000" # use this url when you develop
+#baseurl:            "/Kiko-plus" # the subpath of your site, e.g. /blog
+
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           Asia/Seoul
+permalink:          /:year-:month-:day/:title/
+
+# Pagination
+paginate:           5
+paginate_path:      /page:num/
+
+# Markdown
+markdown:           kramdown
+kramdown:
+  input:            GFM
+
+# Navigation
+nav:
+#  - name:           "About"
+#    url:            "/about"
+#  - name:           "Archive"
+#    url:            "/archive"
+#  - name:           "Tags"
+#    url:            "/tags"
+  - name:           "motlabs github link"
+    url:            "https://github.com/motlabs/"
+
+# Sass
+sass:
+  sass_dir:         _sass
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 plugins:
-  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-admin
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:            [vendor]

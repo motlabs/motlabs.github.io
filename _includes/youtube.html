@@ -1,0 +1,10 @@
+{% if include.caption %}
+<div class="video-container" style="margin: 4rem auto 0;">
+  <iframe src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
+</div>
+<div style="text-align:center;margin: 1rem auto 4rem;">{{ include.caption }}</div>
+{% else %}
+<div class="video-container" style="margin: 4rem auto;">
+  <iframe src="https://www.youtube.com/embed/{{ include.id }}" frameborder="0" allowfullscreen></iframe>
+</div>
+{% endif %}

@@ -1,0 +1,20 @@
+<div class="include-image">
+  {% if include.src %}
+    {% assign src = include.src %}
+  {% else %}
+    {% assign src = site.url | append: '/assets/images/' | append: include.subdir | append: '/' | append: include.name %}
+  {% endif %}
+  {% if include.to %}
+    <a target="_blank" href="{{ include.to }}">
+      <img src="{{ src }}">
+      {% if include.caption %}
+        <div>{{ include.caption }}</div>
+      {% endif %}
+    </a>
+  {% else %}
+    <img src="{{ src }}">
+    {% if include.caption %}
+      <div>{{ include.caption }}</div>
+    {% endif %}
+  {% endif %}
+</div>
