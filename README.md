@@ -65,8 +65,9 @@ Configuration file: workspace/motlabs.github.io/_config.yml
 [For the first time] 
 1. Sign up `https://ko.gravatar.com/` and fill up you profile.
 2. Upload your profile image.
-3. Generate your Hash code from email address by http://www.miraclesalad.com/webtools/md5.php
-4. Open _config.yml and fill up your author information and send pull request.
+3. Generate your Hash code from your email address by http://www.miraclesalad.com/webtools/md5.php
+4. Open _config.yml, fill up your author information
+5. Send pull request to the master branch.
 ```
 1. Create `YYYY-MM-DD-Your-Blog-Title.md` under `_posts/`
 
