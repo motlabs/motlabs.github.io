@@ -4,6 +4,7 @@
 
 
 ## Getting Started (on MacOS)
+- please contribute installation method for other OS.
 
 #### 1. Install [Homebrew](https://brew.sh/)
 
@@ -22,6 +23,7 @@ workspace$ brew install ruby
 ```bash
 workspace$ sudo gem install jekyll
 workspace$ sudo gem install jekyll-paginate
+workspace$ sudo gen imstall jekyll-admin
 ```
 Note that gem may require ruby version update.
 ```bash
@@ -59,6 +61,13 @@ Configuration file: workspace/motlabs.github.io/_config.yml
 
 ## New Blog Post with [typora.io](https://typora.io)
 
+```
+[For the first time] 
+1. Sign up `https://ko.gravatar.com/` and fill up you profile.
+2. Upload your profile image.
+3. Generate your Hash code from email address by http://www.miraclesalad.com/webtools/md5.php
+4. Open _config.yml and fill up your author information and send pull request.
+```
 1. Create `YYYY-MM-DD-Your-Blog-Title.md` under `_posts/`
 
 2. Write, save, and check on [http://127.0.0.1:4000](http://127.0.0.1:4000)
@@ -75,10 +84,10 @@ Buy @jwkanggist a cup of coffee and everything will be fine 🎉
 
 ---
 
-## [Lanyon](https://github.com/poole/lanyon) License
+## [Kiko-plus](https://aweekj.github.io/Kiko-plus/) License
 
 Take a closer look later
 
-> Open sourced under the [MIT license](LICENSE.md).
+> Open sourced under the [Apache License 2.0](LICENSE.md).
 >
 > <3

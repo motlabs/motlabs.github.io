@@ -1,0 +1,81 @@
+---
+layout: default
+---
+
+{% assign author = site.authors[page.author] %}
+
+<header>
+  <div class="header-small">
+    <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
+  </div>
+</header>
+
+
+<div class="post">
+  <div class="post-title">{{ page.title }}</div>
+  <div class="author">
+    <span>
+      {{ page.date | date: "%Y년 %m월 %d일" }} | {{ author.nickname }}
+    </span>
+
+    <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">공유하기</a></div>
+  </div>
+
+
+  <div class="post-tag">
+    <ul>
+      {% for tag in page.tags %}
+      <li>
+        <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+          <span>{{ tag }}</span>
+        </a>
+      </li>
+      {% unless forloop.last %}{% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  {{ content }}
+
+  <!--&lt;!&ndash; Disqus &ndash;&gt;-->
+  <!--{% if page.comments != false and site.disqus.id %}-->
+  <!--<div class="post-disqus">-->
+      <!--<section id="disqus_thread"></section>-->
+      <!--{% include disqus.html %}-->
+  <!--</div>-->
+  <!--{% endif %}-->
+
+</div>
+
+<br>
+<br>
+
+
+<div class="author-profile">
+  <div class="thumbnail">
+    <img src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=100">
+  </div>
+  <div class="description">
+    <h3>
+      {{ author.nickname }}({{ author.fullname }})
+      {% if author.facebook %}
+        <a target="_blank" href="{{ author.facebook }}">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if author.github %}
+        <a target="_blank" href="https://github.com/{{ author.github }}">
+          <i class="fa fa-github" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+      {% if author.email %}
+        <a href="mailto:{{ author.email }}">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </a>
+      {% endif %}
+    </h3>
+    <p markdown="1">{{ author.description | markdownify }}</p>
+  </div>
+  <div style="clear:both;"></div>
+</div>
+
