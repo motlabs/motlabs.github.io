@@ -1,6 +1,6 @@
 # motlabs.github.io
 
-📚 [GitHub Pages](https://pages.github.com/) powered [motlabs](https://github.com/motlabs) Blog, with [Jekyll](http://jekyllrb.com) and [Poole](http://getpoole.com) based [Lanyon](https://github.com/poole/lanyon)
+📚 [GitHub Pages](https://pages.github.com/) powered [motlabs](https://github.com/motlabs) Blog, with [Jekyll](http://jekyllrb.com) and [Kiko-plus](https://aweekj.github.io/Kiko-plus/)
 
 
 ## Getting Started (on MacOS)
