@@ -2,7 +2,7 @@
 layout: post
 title: Let's Contribute to Tensorflow!
 description: "Summary"
-author: Doyoung Gwak
+author: Jaewook Kang, Doyoung Gwak
 date: 2018-06-09
 tags: [TF Contribution]
 comments: true
@@ -11,14 +11,11 @@ share: true
 
 # Tensorflow 커미터가 되자!
 
-작성자: 강재욱, 곽도영<br>
-최종업데이트: 2018.6.6 곽도영([tucan9389](https://github.com/tucan9389))
-
-##### 참고문헌:
+#### 참고문헌:
 - [Tensorflow github comtributing.md](https://github.com/tensorflow/tensorflow/blob/master/CONTRIBUTING.md)
 - [[번역]Tensorflow CONTRIBUTING.md](https://drive.google.com/file/d/1Br5E6hnqBHMFR8agv0snc5JILDE90DMK/view?usp=sharing)
 
-*※ git과 github에 어느정도 익숙해야 합니다.*
+**※ git과 github에 어느정도 익숙해야 합니다.**
 
 ## 절차
 1. [이슈 생성](#1-%EC%9D%B4%EC%8A%88-%EC%83%9D%EC%84%B1%EF%B8%8F)❗️ (간단한 기여는 생략 가능)
@@ -85,5 +82,5 @@ share: true
 - 리뷰어가 결정하고 노티피케이션으로 알림을 받습니다.
 
 
-#### PR:
+### PR:
 ※ https://github.com/tensorflow/tensorflow/pulls/tucan9389
