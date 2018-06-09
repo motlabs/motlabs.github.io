@@ -10,8 +10,8 @@ share: true
 ---
 
 # Tensorflow 커미터가 되자!
-작성자: 강재욱, 곽도영
 
+작성자: 강재욱, 곽도영<br>
 최종업데이트: 2018.6.6 곽도영([tucan9389](https://github.com/tucan9389))
 
 ##### 참고문헌:
