@@ -7,7 +7,7 @@
 - [Tensorflow github comtributing.md](https://github.com/tensorflow/tensorflow/blob/master/CONTRIBUTING.md)
 - [[번역]Tensorflow CONTRIBUTING.md](https://drive.google.com/file/d/1Br5E6hnqBHMFR8agv0snc5JILDE90DMK/view?usp=sharing)
 
-※ git과 github에 어느정도 익숙해야 합니다.
+*※ git과 github에 어느정도 익숙해야 합니다.*
 
 ## 절차
 1. [이슈 생성](#1-%EC%9D%B4%EC%8A%88-%EC%83%9D%EC%84%B1%EF%B8%8F)❗️ (간단한 기여는 생략 가능)
