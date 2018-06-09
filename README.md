@@ -23,7 +23,7 @@ workspace$ brew install ruby
 ```bash
 workspace$ sudo gem install jekyll
 workspace$ sudo gem install jekyll-paginate
-workspace$ sudo gen imstall jekyll-admin
+workspace$ sudo gem install jekyll-admin
 ```
 Note that gem may require ruby version update.
 ```bash
