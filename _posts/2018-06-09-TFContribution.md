@@ -1,3 +1,14 @@
+---
+layout: post
+title: Let's Contribute to Tensorflow!
+description: "Summary"
+author: Doyoung Gwak
+date: 2018-06-09
+tags: [TF Contribution]
+comments: true
+share: true
+---
+
 # Tensorflow 커미터가 되자!
 작성자: 강재욱, 곽도영
 
@@ -73,6 +84,6 @@
 ### 9. 코드 머지🎊
 - 리뷰어가 결정하고 노티피케이션으로 알림을 받습니다.
 
-<br><br><br>
+
 #### PR:
 ※ https://github.com/tensorflow/tensorflow/pulls/tucan9389
