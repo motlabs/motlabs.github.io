@@ -2,7 +2,7 @@
 layout: post
 title: Let's Contribute to Tensorflow!
 description: "Summary"
-author: Doyoung Gwak
+author: dygwak
 date: 2018-06-09
 tags: [TF Contribution]
 comments: true
