@@ -73,9 +73,9 @@ Configuration file: workspace/motlabs.github.io/_config.yml
 
 2. Write, save, and check on [http://127.0.0.1:4000](http://127.0.0.1:4000)
 
-3. Create new feature branch, commit, push and send PR
+3. Create new feature branch from `develop`, commit, push and send PR to `develop`
 
-4. After PR Review, post will be merged into `master` branch
+4. After PR Review and final checking, post will be merged into `master` branch
 
 5. [Jekyll](http://jekyllrb.com) will automatically compile blog into [https://motlabs.github.io/](https://motlabs.github.io/)
 
