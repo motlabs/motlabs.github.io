@@ -2,7 +2,7 @@
 layout: post
 title: Let's Contribute to Tensorflow!
 description: "Summary"
-author: Jaewook Kang, Doyoung Gwak
+author: Doyoung Gwak
 date: 2018-06-09
 tags: [TF Contribution]
 comments: true
@@ -10,7 +10,10 @@ share: true
 ---
 
 # Tensorflow 커미터가 되자!
+Reviewed by Jaewook Kang
+
 🙆‍♂️이 포스팅의 PR은 언제든 환영입니다!
+
 #### 참고문헌:
 - [Tensorflow github comtributing.md](https://github.com/tensorflow/tensorflow/blob/master/CONTRIBUTING.md)
 - [[번역]Tensorflow CONTRIBUTING.md](https://drive.google.com/file/d/1Br5E6hnqBHMFR8agv0snc5JILDE90DMK/view?usp=sharing)
