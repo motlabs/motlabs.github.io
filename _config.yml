@@ -17,6 +17,16 @@ authors:
     email: jwkang10@gmail.com
     github: jwkanggist
     facebook: https://www.facebook.com/jwkkang
+  dygwak:
+    nickname: Doyoung Gwak
+    fullname: 곽도영
+    description: >
+     MoTLab에서 iOS 개발을 담당하고 있고 모바일용 머신러닝 기술에 관심이 많습니다.
+     지금까지는 iOS 앱개발에 빠져있었으나 최근에는 머신러닝에 흥미가 많습니다. 
+    gravatar: 93a901621e86a4fe17c77d4314374af4 #you can obtain your gravatar hash code from http://www.miraclesalad.com/webtools/md5.php. This site translate your email to a hashcodes.
+    email: tucan.dev@gmail.com
+    github: tucan9389
+    facebook: https://www.facebook.com/tucan9389
 
 #    penname:
 #    nickname: yourname

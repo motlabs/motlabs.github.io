@@ -11,6 +11,7 @@ share: true
 
 ## About
 - 텐서플로우 코드가 갖춰야 할 기본 구조 이해하기
+- 
 
 ## Slide and Github Repo
 - 언어: [자료명 ](url link) 
