@@ -35,7 +35,7 @@ workspace$ rvm use ruby-2.x.x --default
 #### 4. Clone Repository
 
 ```bash
-workspace$ git clone https://github.com/motlabs/motlabs.github.io
+workspace$ git clone https://github.com/motlabs/motlabs.github.io.git
 ```
 
 #### 5. Serve
