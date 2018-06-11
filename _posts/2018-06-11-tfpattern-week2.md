@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "TF Pattern Design Week2"
+title: "TF Pattern Design (Week2)"
 description: "Week2 Study Summary"
 author: jwkang
 date: 2018-06-11
