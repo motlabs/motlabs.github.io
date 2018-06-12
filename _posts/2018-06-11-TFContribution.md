@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Let's Contribute to Tensorflow!
+title: Tensorflow 커미터가 되자!
 description: "Summary"
 author: dygwak
-date: 2018-06-09
+date: 2018-06-11
 tags: [TF Contribution]
 comments: true
 share: true
 ---
 
-# Tensorflow 커미터가 되자!
-Reviewed by Jaewook Kang
+> Reviewed by Jaewook Kang
 
 🙆‍♂️이 포스팅의 PR은 언제든 환영입니다!
 
