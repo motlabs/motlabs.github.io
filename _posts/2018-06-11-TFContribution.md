@@ -26,7 +26,7 @@ share: true
 
 #### 참고문헌:
 - [Tensorflow github comtributing.md](https://github.com/tensorflow/tensorflow/blob/master/CONTRIBUTING.md)
-- [[번역]Tensorflow CONTRIBUTING.md](https://drive.google.com/file/d/1Br5E6hnqBHMFR8agv0snc5JILDE90DMK/view?usp=sharing)
+- [[번역]Tensorflow CONTRIBUTING.md](https://gist.github.com/tucan9389/1a7d1910dfe8183df47a4fbc5ced1c03)
 
 ## 절차
 1. [이슈 생성](#1-%EC%9D%B4%EC%8A%88-%EC%83%9D%EC%84%B1%EF%B8%8F)❗️ (간단한 기여는 생략 가능)
