@@ -13,11 +13,20 @@ share: true
 
 🙆‍♂️이 포스팅의 PR은 언제든 환영입니다!
 
+#### Intro
+
+이번에 Tensorflow에 PR했던게 통과되었습니다🎉. 그러고보니 그 날이 제 생일이었는데ㅋㅋ 의미있는 선물을 받은거 같아서 기분이 좋네요☺️. 사실 PR도 문서 읽다가 마크다운 포멧이 적용되지 않은 부분을 발견해서 점하나 찍고 올렸던게 이틀만에 머지되었습니다. 간단한 PR은 리뷰도 토론도 거의 없고 쉽게쉽게 진행되는 느낌입니다.
+
+**※ git과 github에 어느정도 익숙해야 합니다.** 참고로 저는 아래 문서를 보면서 git과 github을 배웠어요!
+
+- [공식 git 책(한국어)](https://git-scm.com/book/ko/v2)
+- [[번역] Art of Clean Pull Requests - 클린한 Git PR의 기술](http://blog.sonim1.com/224)
+
+
+
 #### 참고문헌:
 - [Tensorflow github comtributing.md](https://github.com/tensorflow/tensorflow/blob/master/CONTRIBUTING.md)
 - [[번역]Tensorflow CONTRIBUTING.md](https://drive.google.com/file/d/1Br5E6hnqBHMFR8agv0snc5JILDE90DMK/view?usp=sharing)
-
-**※ git과 github에 어느정도 익숙해야 합니다.**
 
 ## 절차
 1. [이슈 생성](#1-%EC%9D%B4%EC%8A%88-%EC%83%9D%EC%84%B1%EF%B8%8F)❗️ (간단한 기여는 생략 가능)
@@ -59,11 +68,11 @@ share: true
   ☞ 혹은 직접 툴을 설치해서 세팅
 ### 5. 풀 리퀘스트🙇
 - Pull Request(PR)
-- 절차<br>
+- 절차
   1. 내 로컬의 코드를 커밋
   2. 내 로컬의 커밋을 내 저장소에 Push!
   3. 내 저장소의 코드를 [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow/) 저장소에 PR!
-  
+
 ### 6. 컨트리뷰터 라이센스에 서명하기✍️
 - Contributor License Agreement(CLA)
 - 커미터가 되기 위해서는 [컨트리뷰터 라이센스 동의 서약](https://cla.developers.google.com/)에 서명해야함
@@ -85,4 +94,4 @@ share: true
 
 
 ### PR:
-※ https://github.com/tensorflow/tensorflow/pulls/tucan9389
+※ [https://github.com/tensorflow/tensorflow/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Atucan9389+](https://github.com/tensorflow/tensorflow/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Atucan9389+)
