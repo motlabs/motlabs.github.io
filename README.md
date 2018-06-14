@@ -24,6 +24,7 @@ workspace$ brew install ruby
 workspace$ sudo gem install jekyll
 workspace$ sudo gem install jekyll-paginate
 workspace$ sudo gem install jekyll-admin
+workspace$ sudo gem install jekyll-seo-tag
 ```
 Note that gem may require ruby version update.
 ```bash
