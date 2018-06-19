@@ -146,7 +146,7 @@ with tf.Session() as sess:
 
 
 
-## 발표2: TF 추상화/간소화, Model Export/Serving
+## 발표2: TF 추상화와 간소화, 모델 엑스포트와 서빙
 
 **Speaker : 이규복**
 
@@ -178,6 +178,25 @@ with tf.Session() as sess:
 // Tensorflow에서는 `feed_dict`를 써야함. `numpy`를 바로 쓸 순 없음.  
 
 [TFLearn vs Keras: Which One Should You Use?](https://progur.com/2018/04/tflearn-vs-keras-which-better.html)
+
+### Chapter 10 모델 엑스포트와 서빙
+
+저장
+
+- 수동으로 저장 
+
+  ☞ `numpy` 사용, `.npz` 확장자 
+
+  ☞ 불편스. 쓰지말죠. 
+
+- `tf.saver`로 저장 
+
+- - `tf.train.Saver()`로 저장 
+  - `saver.restore()`로 불러오기 
+  - 변수 이름이 딱 맞아야 저장/불러오기 가능 
+  - `tf.reset_default_graph`를 사용? 뭐 충돌 없애주는 것일듯. 
+
+데이터 로딩을 여러가지 api로 간소화 추상화 
 
 #### Slide
 
