@@ -23,7 +23,8 @@ workspace$ brew install ruby
 ```bash
 workspace$ sudo gem install jekyll
 workspace$ sudo gem install jekyll-paginate
-workspace$ sudo gen imstall jekyll-admin
+workspace$ sudo gem install jekyll-admin
+workspace$ sudo gem install jekyll-seo-tag
 ```
 Note that gem may require ruby version update.
 ```bash
@@ -35,7 +36,7 @@ workspace$ rvm use ruby-2.x.x --default
 #### 4. Clone Repository
 
 ```bash
-workspace$ git clone https://github.com/motlabs/motlabs.github.io
+workspace$ git clone https://github.com/motlabs/motlabs.github.io.git
 ```
 
 #### 5. Serve
