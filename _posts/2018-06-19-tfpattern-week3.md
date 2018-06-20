@@ -43,6 +43,7 @@ share: true
 - 3) training + inference 하는 것 까지 통합api로 지원함
 ```
 단점은 항상 있음!
+
 ```bash
 - 굉장히 정형화 된 모델에 대해서만 지원 (현재까지는!)
 - 커스터 마이제이션이 번거로움 (구글에서 원하는 포맷에 맞게 코딩해야함)
@@ -135,7 +136,6 @@ python의 os, copy, glob, exists 같은 모듈을 tf용으로 만든것
 - Numpy를 사용 
 - `hdf5` 포멧으로 저장 가능 
 - 실제 Keras에 api가 `tf.keras`에는 없을 수도 있음 
-
 ```
 - 읽을 거리: [TFLearn vs Keras: Which One Should You Use?](https://progur.com/2018/04/tflearn-vs-keras-which-better.html)
 
