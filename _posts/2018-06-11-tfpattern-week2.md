@@ -22,12 +22,13 @@ share: true
 - Multi Thread / Coordinator / QueueRunner
 ```
 #### Slide
+=======
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
 </style>
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS1XZSl4WFEELAf9V1TLehuT0oCufbY-dIC9TxKg5MVMGhn9p1vZ4Z_QX2EZZt-1Q5P7msOGmMAzuqB/embed?start=true&loop=false&delayms=10000" frameborder="0" width="960" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS1XZSl4WFEELAf9V1TLehuT0oCufbY-dIC9TxKg5MVMGhn9p1vZ4Z_QX2EZZt-1Q5P7msOGmMAzuqB/embed?start=true&loop=false&delayms=10000" frameborder="0" width="720" height="380" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
 ## 발표2: TF fundamental, Code structure overview, TF Pattern design philosophy, and Lack Lenet5 Tf model
@@ -70,7 +71,7 @@ share: true
 </style>
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT1zTUU36nekwbv7kKwPYTMn-CGbX-7B3Yfz_dzBmb0nOrkM1kqXBtDZRnFIXH_UNmhj2dbuY8gE8Ze/embed?start=true&loop=false&delayms=10000" frameborder="0" width="960" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT1zTUU36nekwbv7kKwPYTMn-CGbX-7B3Yfz_dzBmb0nOrkM1kqXBtDZRnFIXH_UNmhj2dbuY8gE8Ze/embed?start=false&loop=false&delayms=10000" frameborder="0" width="720" height="584" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
 #### Github Repo
