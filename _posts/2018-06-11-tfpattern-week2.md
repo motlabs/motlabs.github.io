@@ -22,7 +22,7 @@ share: true
 - Multi Thread / Coordinator / QueueRunner
 ```            
 #### Slide
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS1XZSl4WFEELAf9V1TLehuT0oCufbY-dIC9TxKg5MVMGhn9p1vZ4Z_QX2EZZt-1Q5P7msOGmMAzuqB/embed?start=true&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS1XZSl4WFEELAf9V1TLehuT0oCufbY-dIC9TxKg5MVMGhn9p1vZ4Z_QX2EZZt-1Q5P7msOGmMAzuqB/embed?start=true&loop=false&delayms=10000" frameborder="0" width="720" height="380" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## 발표2: TF fundamental, Code structure overview, TF Pattern design philosophy, and Lack Lenet5 Tf model
 **Speaker : Jaewook Kang**
@@ -59,7 +59,7 @@ share: true
 ```
     
 #### Slide
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT1zTUU36nekwbv7kKwPYTMn-CGbX-7B3Yfz_dzBmb0nOrkM1kqXBtDZRnFIXH_UNmhj2dbuY8gE8Ze/embed?start=true&loop=false&delayms=10000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT1zTUU36nekwbv7kKwPYTMn-CGbX-7B3Yfz_dzBmb0nOrkM1kqXBtDZRnFIXH_UNmhj2dbuY8gE8Ze/embed?start=false&loop=false&delayms=10000" frameborder="0" width="720" height="584" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 #### Github Repo
 - @jwkanggist, [EveryBodyTensorFlow](https://github.com/jwkanggist/EveryBodyTensorFlow)
 - @jwkanggist, [부족한 LetNet5 TF model](https://github.com/jwkanggist/tensorflowlite)
