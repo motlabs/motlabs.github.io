@@ -35,22 +35,20 @@ share: true
 ---------------------------------------
 
 구글에서 야심차게 준비하고 있는 scikest learn와 같은 정말 high-level api
-- TF 공식문서: [https://www.tensorflow.org/api_docs/python/tf/estimator](https://www.tensorflow.org/api_docs/python/tf/estimator)
 - 주의!: `tflearn.layers.estimator`와는 다름
-- 지원:
 
 ```bash
 - 1) 모델을 만드는 것에서 부터 
 - 2) loss + optimizer를 설정
 - 3) training + inference 하는 것 까지 통합api로 지원함
 ```
-- 단점은 항상 있음!
-
+단점은 항상 있음!
 ```bash
 - 굉장히 정형화 된 모델에 대해서만 지원 (현재까지는!)
 - 커스터 마이제이션이 번거로움 (구글에서 원하는 포맷에 맞게 코딩해야함)
 - tensorboard과 호환성이 매우 좋음
 ``` 
+- TF 공식문서: [https://www.tensorflow.org/api_docs/python/tf/estimator](https://www.tensorflow.org/api_docs/python/tf/estimator)
 
 
 #### tf.train & tf.test
@@ -78,7 +76,7 @@ training & testing 할때 필요한 api를 모아놓음
     ☞ 압축된 `gz`파일 그대로 사용 가능(`tfrecord`가 디코딩해줌)
 ```
 
-- 단점이 있음
+단점이 있음
 
 ```bash
 - 단일 이미지당 어느정도 이상 사이즈가 커지면(128*128*128~) 에러가 나옴!!! 헐.
@@ -89,7 +87,7 @@ training & testing 할때 필요한 api를 모아놓음
 - 옵션은 한 파일이 있을때 섞냐, 안 섞냐 이것밖에 안됨.
 - 전체 데이터가 몇개인지 알려면 `tf.python_io.tf_record_iterator`를 돌려봐야 알 수 있음.
 ```
--ref: [정겨울님 블로그: Convert to TFRecords dataset](https://medium.com/trackin-datalabs/convert-to-tfrecords-dataset-2087b0ffa4f5)
+- ref: [정겨울님 블로그: Convert to TFRecords dataset](https://medium.com/trackin-datalabs/convert-to-tfrecords-dataset-2087b0ffa4f5)
 
 
 #### tf.data
@@ -123,16 +121,14 @@ python의 os, copy, glob, exists 같은 모듈을 tf용으로 만든것
 ### 요약
 ---------------------------------------
 
-#### TFLearn
-
+**TFLearn**
 ```bash
 - Tensorflow API와 유사함 
 - python 기본 array를 사용 
 - `ckpt`로 저장 가능(frozen graph로 만들 수 있는것) 
 ```
 
-#### tf.keras
-
+**tf.keras**
 ```bash
 - `TFLearn`과 비슷함 
 - 절차형/함수형 원하는 스타일로 코드 짤 수 있음? 
@@ -143,7 +139,7 @@ python의 os, copy, glob, exists 같은 모듈을 tf용으로 만든것
 ```
 - 읽을 거리: [TFLearn vs Keras: Which One Should You Use?](https://progur.com/2018/04/tflearn-vs-keras-which-better.html)
 
-#### TF.Slim
+**TF.Slim**
 ```bash
 - `tf.keras`와 `tf.slim`는 둘 다 내부적으로 Tensorflow를 사용함 
 - cnn에 특화된 라이브러리 
