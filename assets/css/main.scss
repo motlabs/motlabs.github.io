@@ -6,3 +6,102 @@ sitemap: false
 @import "typography";
 @import "highlighter";
 @import "site";
+
+.author img {
+  margin: -0.2rem 0.5rem 0rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display:inline-block;
+  vertical-align:middle;
+  border-radius: 50%;
+}
+
+.author span {
+  vertical-align:middle;
+  font-family: "Noto Sans KR", Helvetica, Arial, sans-serif;
+}
+
+
+/* Post */
+.content {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Author Details */
+.author-profile {
+  margin:0;
+  padding: 0;
+  border-bottom: 1px solid #ddd;
+}
+.author-profile div.thumbnail {
+  float:left;
+  width: 20%;
+  padding: 0.5rem;
+}
+.author-profile div.description {
+  float:right;
+  width: 80%;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+@media (min-width: 48em) {
+  .author-profile div.thumbnail {
+    padding: 1rem;
+  }
+  .author-profile div.description {
+    padding: 1rem 1rem 1rem 0;
+  }
+}
+
+.author-profile div.thumbnail > img {
+  margin: 0;
+  border-radius: 50%;
+}
+.author-profile .description > h3 {
+  margin: 0;
+  word-wrap:break-word;
+}
+.author-profile .description a i {
+  float: right;
+  margin: 0 0 0 0.8rem;
+  font-size: 1.5rem;
+}
+.author-profile .description a:hover i {
+  cursor: pointer;
+}
+.author-profile .description a i.fa-envelope-o {
+  color: #333333;
+}
+.author-profile .description a:hover i.fa-envelope-o {
+  color: #767676;
+}
+.author-profile .description a i.fa-github {
+  color: #333333;
+}
+.author-profile .description a:hover i.fa-github {
+  color: #767676;
+}
+.author-profile .description a i.fa-facebook-official {
+  color: #3b5998;
+}
+.author-profile .description a:hover i.fa-facebook-official {
+  color: #8b9dc3;
+}
+
+/* Image with Link and Caption */
+.include-image a {
+  color: #515151;
+}
+.include-image a:hover {
+  color: #ED7D76;
+}
+.include-image div {
+  text-align: center;
+  margin: -3rem auto 4rem;
+}
+.include-image img {
+  max-width: 90%;
+  margin: 4rem auto;
+}
+
