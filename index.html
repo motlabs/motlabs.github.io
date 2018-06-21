@@ -22,34 +22,34 @@ layout: default
   <h2>No post found</h2>
 {% else %}
 <!-- This loops through the paginated posts -->
+
 {% for post in paginator.posts %}
   <div class="list-post">
     {% if post.link %}
-    <a href="{{ post.link }}">
+    <!--<a href="{{ post.link }}">-->
     {% else %}
-    <a href="{{ post.url | prepend: site.baseurl }}">
-    {% endif %}  
-      <div class="list-post-date">
-        <time>{{ post.date | date_to_string }}</time>
-      </div>
+    {% endif %}
+      <!--<div class="list-post-date">-->
+        <!--<time>{{ post.date | date_to_string }}</time>-->
+      <!--</div>-->
       <div class="list-post-title">
+        <a href="{{ post.url | prepend: site.baseurl }}">
         {{ post.title }}
       </div>
       {% if post.description %}
-      <div class="list-post-desc">
-        {{ post.description }}
-      </div>
+      <!--<div class="list-post-desc">-->
+        <!--{{ post.description }}-->
+      <!--</div>-->
       <div class="author">
         {% assign author = site.authors[post.author] %}
-        <span>
-          {{ post.date | date: "%Y년 %m월 %d일" }} | {{ author.nickname }}
-        </span>
+        <span>{{ post.date | date: "%Y년 %m월 %d일" }} | {{ author.nickname }}</span>
+        <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40">
       </div>
+    <hr>
       {% endif %}
     </a>
-
-
   </div>
+
 {% endfor %}
   <!-- Pagination links -->
   <div class="list-pagination">

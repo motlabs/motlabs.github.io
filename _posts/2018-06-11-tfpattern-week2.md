@@ -6,6 +6,8 @@ author: jwkang
 date: 2018-06-11
 tags: [TF Pattern study]
 comments: true
+subdir: tfpattern-week2
+thumbnail: tensorflow_logo.png
 share: true
 ---
 
@@ -22,7 +24,6 @@ share: true
 - Multi Thread / Coordinator / QueueRunner
 ```
 #### Slide
-=======
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
 </style>
