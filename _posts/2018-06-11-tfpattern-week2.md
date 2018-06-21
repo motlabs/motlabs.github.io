@@ -22,7 +22,6 @@ share: true
 - Multi Thread / Coordinator / QueueRunner
 ```
 #### Slide
-=======
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
 </style>
