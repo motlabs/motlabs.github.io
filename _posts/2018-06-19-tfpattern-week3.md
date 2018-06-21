@@ -6,6 +6,8 @@ author: dygwak
 date: 2018-06-19
 tags: [TF Pattern study]
 comments: true
+subdir: tfpattern-week3
+thumbnail: tensorflow_logo.png
 share: true
 ---
 
