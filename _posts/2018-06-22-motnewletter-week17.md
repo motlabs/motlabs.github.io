@@ -23,7 +23,7 @@ share: true
 
 ## MOT study
 
-**1. Tensorflow 커미터가 되자 - 점찍고 PR날리기 (발표자 곽도영)**
+**1. iOS에서 ML Kit 핥아보기 (발표자 곽도영)**
 - [발표자료 링크](https://goo.gl/2jms43)
 - ML Kit DEMO
 - ML Kit 이란?
@@ -36,8 +36,18 @@ share: true
 - Tf to tflite 호환성 관련 
 - Tf slim api use
 - Mobile app implementation related
-- Data set collection related
-    - Off the record (It will be announced later !!)
+- Dataset collection status
+- Off the record (It will be announced later !!)
+
+
+## Notices
+- 텐서보드 대신에 더 간단하게 그래프 아키텍쳐를 보는 링크  
+    - [https://lutzroeder.github.io/Netron/](https://lutzroeder.github.io/Netron/) 
+    - .pb / .tflite 파일 로드 가능
+- 텐서플로 코딩할때 tflite ops가 지원하는지 신경쓸 것
+    - [관련 링크](https://goo.gl/EPqsXV)    
+- TF 모듈 코딩해서 PR 날릴때 테스트코드도 같이 제출할 것
+    
 
 
 ## Last Weekly Reports in MoT
