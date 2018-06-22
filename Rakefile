@@ -39,6 +39,8 @@ task :post do
     post.puts "date: #{date}"
     post.puts "tags: #{tags}"
     post.puts "comments: true"
+    post.puts "subdir: "
+    post.puts "thumbnail: "
     post.puts "---"
   end
 end # task :post
