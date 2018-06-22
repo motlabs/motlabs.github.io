@@ -6,6 +6,8 @@ author: dygwak
 date: 2018-06-11
 tags: [TF Contribution]
 comments: true
+subdir: postformat
+thumbnail: tensorflow_logo.png
 share: true
 ---
 
