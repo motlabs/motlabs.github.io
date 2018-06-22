@@ -6,6 +6,8 @@ author: jwkang
 date: 2018-06-09
 tags: [MoTLabs Study]
 comments: true
+subdir: motnewletter-week15
+thumbnail: mot_logo.jpg
 share: true
 ---
 
