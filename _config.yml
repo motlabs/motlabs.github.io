@@ -48,7 +48,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "motlabs"
+  id:               "motlabs-github-io"
 
 # URL
 url:                "https://motlabs.github.io/" # the base hostname & protocol for your site

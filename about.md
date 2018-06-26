@@ -86,7 +86,7 @@ google-analytics:
 
 ```yml
 disqus:
-  id:               "your-id"
+  id:               "motlabs-github-io"
 ```
 
 ### URL
