@@ -37,13 +37,7 @@ layout: default
 
   {{ content }}
 
-  <!--&lt;!&ndash; Disqus &ndash;&gt;-->
-  <!--{% if page.comments != false and site.disqus.id %}-->
-  <!--<div class="post-disqus">-->
-      <!--<section id="disqus_thread"></section>-->
-      <!--{% include disqus.html %}-->
-  <!--</div>-->
-  <!--{% endif %}-->
+
 
 </div>
 
@@ -79,3 +73,10 @@ layout: default
   <div style="clear:both;"></div>
 </div>
 
+<!-- &lt;!&ndash; Disqus &ndash;&gt; -->
+{% if page.comments != false and site.disqus.id %}
+<div class="post-disqus">
+    <section id="disqus_thread"></section>
+    {% include disqus.html %}
+</div>
+{% endif %}
