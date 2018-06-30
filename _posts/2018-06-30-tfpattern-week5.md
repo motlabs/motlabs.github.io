@@ -58,11 +58,13 @@ share: true
 - Flags 메커니즘 소개
 - Ch9. 분산 텐서플로
 - 부록A.1.1 모델 구조화
-- 부록A.1.2 사용자 정의 손실 함수
-- [관련 github repo]
+- ~~부록A.1.2 사용자 정의 손실 함수~~
+- 참고 프로젝트
+  - [https://github.com/carpedm20/multi-speaker-tacotron-tensorflow](https://github.com/carpedm20/multi-speaker-tacotron-tensorflow)
+  - [https://github.com/Hezi-Resheff/Oreilly-Learning-TensorFlow](https://github.com/Hezi-Resheff/Oreilly-Learning-TensorFlow)
 
 
 
 
 ## Issues
-- 이슈 없음
+- `@property` 같은 데코레이터 문법(파이썬) 용도가 뭔지?
