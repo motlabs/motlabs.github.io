@@ -46,6 +46,8 @@ share: true
 - [[mot-android-tensorflow github repo]](https://github.com/motlabs/mot-android-tensorflow)
 - Single pose estimation demo 앱 빌드
 - fps 측정 api 구현
+{% include image.html subdir=page.subdir name='demoapp-week18.jpg' caption='18주차 앱구현 현황 (오른쪽:Android, 왼쪽:iOS)' %}
+
 
 **3. To TFRecord (발표자: 이준호)**
 - [[코드링크]](https://github.com/motlabs/dont-be-turtle/blob/feature/fb_dataio/tfmodules/tfrecord_converter.py)
