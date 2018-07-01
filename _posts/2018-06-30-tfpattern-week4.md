@@ -42,14 +42,16 @@ share: true
 ## 발표2: To quickly implementing RNN
 
 **Speaker : 김보섭**
-
-### Slide
-[발표자료링크](https://drive.google.com/drive/folders/1ZDMJwMRID6KqEFzTPcALC1W0y0wfg-B1)
-
+- [발표자료링크](https://drive.google.com/drive/folders/1ZDMJwMRID6KqEFzTPcALC1W0y0wfg-B1)
+- [nbvierwer jupyter material](https://nbviewer.jupyter.org/github/aisolab/CS20/blob/master/Lec11_Recurrent%20Neural%20Networks/To%20quickly%20implementing%20RNN.ipynb)
+- [aisolab-c20 github repo](https://github.com/aisolab/CS20)
 
 ### 요약
 ---------------------------------------
-- TBU
+- Many to one RNN
+- Many to Many RNN
+- Seq2Seq RNN
+
 
 
 
