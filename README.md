@@ -60,6 +60,56 @@ Configuration file: workspace/motlabs.github.io/_config.yml
 
 #### 6. Open [http://127.0.0.1:4000](http://127.0.0.1:4000) to see what happens!
 
+## Getting Started (on Window10)
+#### 1. Install Ruby
+Go to below link and download **RubyInstaller**, install ruby by **RubyInstaller**.
+- link : https://rubyinstaller.org/downloads/
+
+#### 2. Install [Jekyll](https://jekyllrb.com/docs/installation/) and Plugins
+Run **Start Command Prompt with Ruby** app, and type the following command.
+
+```bash
+gem install jekyll
+gem install bundler
+gem install minima
+gem install jekyll-feed
+gem install tzinfo-data
+gem install jekyll-paginate
+gem install jekyll-admin
+gem install jekyll-seo-tag
+```
+
+#### 3. Clone Repository
+Run **Git Bash** app, and type the following command.
+
+```bash
+git clone https://github.com/motlabs/motlabs.github.io.git
+```
+
+#### 4. Serve
+Run **Start Command Prompt with Ruby** app, and type the following command.
+
+```bash
+cd motlabs.github.io/
+jekyll serve
+```
+```bash
+Configuration file: D:/motlabs.github.io/_config.yml
+            Source: D:/motlabs.github.io
+       Destination: D:/motlabs.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+                    done in 0.881 seconds.
+  Please add the following to your Gemfile to avoid polling for changes:
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+ Auto-regeneration: enabled for 'D:/motlabs.github.io'
+  JekyllAdmin mode: production
+    Server address: http://127.0.0.1:4000
+  Server running... press ctrl-c to stop.
+```
+
+#### 5. Open [http://127.0.0.1:4000](http://127.0.0.1:4000) to see what happens!
+
 ## New Blog Post with [typora.io](https://typora.io)
 
 ```
