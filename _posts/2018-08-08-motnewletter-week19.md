@@ -1,7 +1,7 @@
 ---
 layout: post
-title: MoT Weekly News Letters (19th weeks)
-description: "19th Weeks, MoT summary"
+title: MoT Weekly News Letters (19-20th weeks)
+description: "19-20th Weeks, MoT summary"
 author: jwkang
 date: 2018-08-08
 tags: [MoTLabs Study]
@@ -14,11 +14,11 @@ share: true
 
 ## MOT News
 - 강재욱, 김택민, 양서연 구글캠프 2018 무사히 마치고 복귀
-- 강재욱, 곽도영, SI Analytics방문 + 발표
+- 강재욱, 곽도영, SI Analytics방문 + 발표 (8/7)
 
 
 ## MOT Study
-### 발표1: Dont be turtle project - Prototype app dev
+### 발표1: 어머! TPU! 이건 꼭 써야해!
 **Speaker : 강재욱**
 
 #### Slide
@@ -27,18 +27,18 @@ share: true
 </style>
 <div class="responsive-wrap">
 <!-- this is the embed code provided by Google -->
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSFgE_2tnA_t98RvIF28zdw-72rFcSaRN_thEVKCQhZZ9yAN3QWm5nmz8NfT8DHtPcl08Wxe5PoGYjn/embed?start=true&loop=false&delayms=3000" frameborder="0" width="720" height="380" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQRgapj6G-m-jHrdzZGiyflS8Jj4bz6xT5UOKFEEZb0IwOOqpQ3sy7ml_PUhxdCSiJyKGfrlZ3VYXsZ/embed?start=true&loop=true&delayms=3000" frameborder="0" width="720" height="380" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
-- Github repo: [https://github.com/motlabs/dont-be-turtle](https://github.com/motlabs/dont-be-turtle)
+- Github repo: [https://github.com/jwkanggist/tpu-tutorial-experiment](https://github.com/jwkanggist/tpu-tutorial-experiment)
 
-#### 요약
+
+##### 요약
 ---------------------------------------
-- Research baselines
-- Note1: Training large model from scratch is difficult
-- Note2: Better conv module?
-- Note3: Must need multiscale feature ?
-- Note4: Deep learning must combined with classical methods
-- Note5: Content specific Keypoint definition
+- TPU가 나오게 된 배경 + About TPU
+- 이제 TPU한번 써볼까? 
+- TPUEstimator
+
 
 ### 발표2: Real-Time Segmentation on Mobile Devices
 **Speaker : 김택민**
@@ -93,15 +93,13 @@ share: true
 
 
 ## Lab Notices
-- 8/9은 양재캠퍼스에서 자율주행랩과 조인트랩 예정
+- 8/9은 양재캠퍼스에서 자율주행랩과 조인트랩 (8/9)
 - 8월 말에 Dont be turtle app v1.0을 릴리즈 하자!
 - MoTLAB은 프로젝트 기반 으로 운영될 것!
 
 
 ## Issues
 - None
-
-
 
 
 ## Last Weekly Reports in MoT
