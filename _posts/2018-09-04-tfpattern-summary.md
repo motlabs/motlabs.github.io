@@ -19,17 +19,13 @@ TF Pattern Study Github : [https://github.com/howtowhy/mot-tf-codepattern-study]
 
  
 
-![Alt text](https://user-images.githubusercontent.com/10994112/45034300-0f1be400-b092-11e8-9204-db282648d466.jpg "MoT LAB")
-
-
-
 **Date**: 2018. 06
 
 **Study Director :** 양서연
 
 **Advisors :** 강재욱, 이준호, 김보섭
 
-**Members :** 백윤범, 오시영, 류지은, 이규복, 김형섭, 이승재
+**Members :** 곽도영, 백윤범, 오시영, 류지은, 이규복, 김형섭, 이승재
 
 **Supported by :** MoT Lab, 모두의 연구소
 
@@ -153,7 +149,7 @@ TF Pattern Study Github : [https://github.com/howtowhy/mot-tf-codepattern-study]
 
 
 
-### < TF Study day1 과제>
+### < TF Study day1 과제 >
 
 * 러닝 텐서플로 Chapter 1,2,3 공부하기
 
@@ -184,7 +180,7 @@ TF Pattern Study Github : [https://github.com/howtowhy/mot-tf-codepattern-study]
 ----------------------------------------------------
 
 
-## < TF Study day2  "model 만들기, 라이브러리 사용해보기">
+## < TF Study day2  "model 만들기, 라이브러리 사용해보기" >
 
 - 러닝 텐서플로 해당 단원 : Chapter 7, 10 
 
@@ -371,7 +367,7 @@ TF Pattern Study Github : [https://github.com/howtowhy/mot-tf-codepattern-study]
 
 
 
-## <TF Study day2 과제> 
+## < TF Study day2 과제 >
 
 * 러닝 텐서플로 Chapter 7, 10 공부
 
@@ -402,7 +398,7 @@ TF Pattern Study Github : [https://github.com/howtowhy/mot-tf-codepattern-study]
 
 
 
-##  <TF Study day3 "시계열 데이터 다뤄보기 / Tensorboard ">
+## < TF Study day3 "시계열 데이터 다뤄보기 / Tensorboard " >
 
 * 러닝 텐서플로 해당 단원 : Chapter 5, 6
 
@@ -499,7 +495,7 @@ TF Pattern Study Github : [https://github.com/howtowhy/mot-tf-codepattern-study]
 
 
 
-## <TF Study day3 과제> 
+## < TF Study day3 과제 >
 
 * L.T. Chapter 5, 6 공부
 
@@ -520,7 +516,7 @@ TF Pattern Study Github : [https://github.com/howtowhy/mot-tf-codepattern-study]
 
 
 
-## <TF Study day4 "모델 구조화, 분산처리, Hyper parameter">
+## < TF Study day4 "모델 구조화, 분산처리, Hyper parameter" >
 
 * 러닝 텐서플로 해당단원 : Chapter A.1, 9
 
@@ -572,7 +568,7 @@ TF Pattern Study Github : [https://github.com/howtowhy/mot-tf-codepattern-study]
 
 
 
-## <TF Study day4 과제> 
+## < TF Study day4 과제 >
 
 *  러닝 텐서플로 Chapter A.1, 9 
 *  참고 자료 및 코드
@@ -593,7 +589,7 @@ TF Pattern Study Github : [https://github.com/howtowhy/mot-tf-codepattern-study]
 
 
 ## Picture of Study
-![Alt text](https://user-images.githubusercontent.com/10994112/45034369-4d190800-b092-11e8-859b-e4d8d96b806b.jpg "Picture")
+<img width="600" height="450" src = "https://user-images.githubusercontent.com/10994112/45034369-4d190800-b092-11e8-859b-e4d8d96b806b.jpg">
 
 ####                                       Thank you for TF Pattern Study Member :)
 
