@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "TF Pattern Study Summary"
-description: "An example"
+description: " Tf pattern study entire summary"
 author: howtowhy
 date: 2018-09-04
 tags: [TF Pattern study]
 comments: true
-subdir: postformat
-thumbnail: mot_logo.png
+subdir: tfpattern-summary
+thumbnail: tensorflow_logo.png
 share: true
 ---
 
