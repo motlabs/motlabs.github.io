@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quick Review of TF 2.0"
+title: "Quick Review of TF 2.0 Preview"
 description: "Quick review of TF 2.0"
 author: jwkang
 date: 2019-01-12
