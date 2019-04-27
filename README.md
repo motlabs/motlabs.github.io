@@ -29,8 +29,8 @@ workspace$ sudo gem install jekyll-seo-tag
 Note that gem may require ruby version update.
 ```bash
 workspace$ \curl -sSL https://get.rvm.io | bash -s stable
-workspace$ rvm install ruby-2.x.x
-workspace$ rvm use ruby-2.x.x --default
+workspace$ rvm install ruby-2.x.x # rvm install ruby-2.6.3
+workspace$ rvm use ruby-2.x.x --default # rvm use ruby-2.6.3 --default
 ```
 
 #### 4. Clone Repository
