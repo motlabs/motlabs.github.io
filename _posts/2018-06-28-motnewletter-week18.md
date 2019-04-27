@@ -44,15 +44,18 @@ share: true
 
 **2. 거북목 프로젝트 Android 데모 (발표자: 신정아)**
 - [[mot-android-tensorflow github repo]](https://github.com/motlabs/mot-android-tensorflow)
+
+```
 - Single pose estimation demo 앱 빌드
 - fps 측정 api 구현
+```
+{% include image.html subdir=page.subdir name='demoapp-week18.jpg' caption='18주차 앱구현 현황 (오른쪽:Android, 왼쪽:iOS)' %}
 
-**3. To TFRecord (발표자: 이준호)**
-- [[코드링크]](https://github.com/motlabs/dont-be-turtle/blob/feature/fb_dataio/tfmodules/tfrecord_converter.py)
+
+**3. To TFRecord (발표자: 이준호)**, [[코드링크]](https://github.com/motlabs/dont-be-turtle/blob/feature/fb_dataio/tfmodules/tfrecord_converter.py)
 
 
-**4. Single-shot detection TF API 소개 (발표자: 이성진)**
-- [[발표자료 링크]](https://drive.google.com/drive/folders/1TrdtYw9Hzo3ux80gjqXhkwnRb4lQOs6s)
+**4. Single-shot detection TF API 소개 (발표자: 이성진)**, [[발표자료 링크]](https://drive.google.com/drive/folders/1TrdtYw9Hzo3ux80gjqXhkwnRb4lQOs6s)
 
 
 **5. 거북목 프로젝트 진행사항 (발표자 강재욱)**
@@ -75,9 +78,7 @@ share: true
 ## Issues
 - 성능측정앱과 데모앱은 다른 프로젝트로 빌드하기 [(문서참)](https://docs.google.com/document/d/1eYztqAInoD-6CQTsen6_SV0xVEYO6FRgkO9Zvbsr8DY/edit#)
 - 팀원들의 지속적인 서포트 필요
-    - trainer.py / data_loader.py
-    - heatmap_generater.py
-    - ios / android
+
 
 {% include image.html subdir=page.subdir name='motweek18.jpg' caption='열심히! 연구하는 MoT' %}
 

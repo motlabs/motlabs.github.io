@@ -1,6 +1,6 @@
-# # # # # # # # # # #
+# # #
 #   MoTLabs Blog    #
-# # # # # # # # # # #
+# # #
 
 # Basic
 name:               "MoTLabs Blog"
@@ -27,6 +27,18 @@ authors:
     email: tucan.dev@gmail.com
     github: tucan9389
     facebook: https://www.facebook.com/tucan9389
+
+  howtowhy:
+    nickname: Stella Yang
+    fullname: 양서연
+    description: >
+     MoT에서 회식부장을 당담하고 있습니다.
+     우주를 좋아합니다. 물리학과 기계항공을 전공하였고,
+     임베디드 딥러닝과 HCI, 로보틱스 항법에 관심이 많습니다.
+    gravatar: 885d90b768d49bed83042cf42810e5f1
+    email: howtowhy@gmail.com
+    github: howtowhy
+    facebook: https://www.facebook.com/seoyeon.stella.yang
 
 #    penname:
 #    nickname: yourname
