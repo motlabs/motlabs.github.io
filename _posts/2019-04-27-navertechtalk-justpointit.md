@@ -11,8 +11,7 @@ thumbnail: tensorflow_logo.png
 share: true
 ---
 발표자 : 곽도영<br>
-발표날짜 : 2019-03-15<br>
-리뷰어 : Jaewook Kang <<<<<< `이렇게 넣으면 되겠죠?`
+발표날짜 : 2019-03-15
 
 <br><br>
 감사하게도 이번에 네이버 테크톡에 초대를 받아 제가 만들었던 **[JUST POINT IT 앱](https://itunes.apple.com/app/id1438598958)**에대해 소개하고 경험을 공유할 수 있는 기회가 있었습니다.
