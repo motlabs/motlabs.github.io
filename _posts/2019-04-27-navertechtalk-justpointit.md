@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "짚으면 찾아주는 사전 - JUST POINT IT과 모바일 머신러닝 (NAVER TechTalk)"
-description: "Week3 Study Summary"
+description: "Core ML과 ML Kit을 사용한 Pose Estimation + OCR 앱 개발기"
 author: dygwak
 date: 2019-04-27
 tags: [presentation, NAVER, TechTalk]
