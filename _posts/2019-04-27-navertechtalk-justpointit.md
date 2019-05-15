@@ -7,7 +7,7 @@ date: 2019-04-27
 tags: [presentation, NAVER, TechTalk]
 comments: true
 subdir: presentation
-thumbnail: tensorflow_logo.png
+thumbnail: mot_logo.jpg
 share: true
 ---
 발표자 : 곽도영<br>
